@@ -1,0 +1,356 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    background: #F5F8FF;
+}
+
+.page-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    height: 698px;
+    background: url("http://googleusercontent.com/file_content/2");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 150px;
+    color: #252432;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 158px;
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+    color: #4D47FF;
+}
+
+.signup-button {
+    width: 132px;
+    height: 48px;
+    background: #4D47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 905px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 65px;
+    display: block;
+    margin-bottom: 37px;
+}
+
+.hero-button {
+    width: 174px;
+    height: 48px;
+    background: #4D47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Action Section */
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 62px 141px;
+}
+
+.action-text {
+    max-width: 517px;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    display: block;
+    margin-bottom: 23px;
+}
+
+.action-subtitle {
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    display: block;
+    margin-bottom: 23px;
+}
+
+.action-button {
+    width: 229px;
+    height: 48px;
+    background: #4D47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.action-image {
+    width: 403px;
+    height: 328px;
+    background: url("http://googleusercontent.com/file_content/0");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 48px;
+}
+
+/* Stats Section */
+.stats-section {
+    background: rgba(77, 71, 255, 0.1);
+    padding: 50px 141px;
+    border-radius: 24px;
+    margin: 100px 141px;
+}
+
+.stats-content {
+    max-width: 856px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stats-title {
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-item {
+    width: 180px;
+}
+
+.stat-number {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4D47FF;
+    display: block;
+}
+
+.stat-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 50px 151px;
+    text-align: center;
+}
+
+.testimonials-title {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-card {
+    width: 366px;
+    height: 243px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 24px;
+    border-radius: 14px;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 71px 150px;
+    text-align: center;
+    position: relative;
+    margin: 100px 151px;
+    background: white;
+    border-radius: 14px;
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: 50px;
+    color: #000;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.cta-subtitle {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    width: 195px;
+    height: 48px;
+    background: #4D47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-image {
+    width: 840px;
+    height: 364px;
+    background: url("http://googleusercontent.com/file_content/1");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 48px;
+    margin: 30px auto 0;
+}
+
+
+/* Contact Section */
+.contact-section {
+    padding: 71px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 97px;
+    color: #000;
+    max-width: 528px;
+}
+
+.contact-form {
+    width: 497px;
+}
+
+.form-group {
+    margin-bottom: 19px;
+}
+
+.form-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-input,
+.form-textarea {
+    background: white;
+    border-radius: 10px;
+    padding: 20px 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form-input {
+    height: 70px;
+}
+
+.form-textarea {
+    height: 135px;
+}
+
+.submit-button {
+    width: 100%;
+    height: 62px;
+    background: #4D47FF;
+    padding: 19px 101px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+.footer-section {
+    padding: 71px 150px;
+    background: white;
+}
+
+.footer-content {
+    max-width: 531px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4D47FF;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #8987A1;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 401px;
+    margin: 0 auto;
+    color: #8987A1;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
